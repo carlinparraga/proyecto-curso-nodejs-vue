@@ -1,0 +1,12 @@
+git remote rm origin
+
+git init
+git add .
+git commit -m "prueba final"
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+git push -u origin master
+
+git remote show origin
+git push origin master
+
+https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/

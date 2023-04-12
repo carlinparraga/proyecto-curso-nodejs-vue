@@ -1,0 +1,38 @@
+{
+  "name": "backend_proyecto_node_vue",
+  "version": "1.0.0",
+  "description": "backend api rest proyecto",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "exec": "nodemon --exec babel-node src/index.js",
+    "build": "babel src/ --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlinparraga/proyecto-curso-vue.git"
+  },
+  "keywords": [
+    "node",
+    "vue",
+    "express"
+  ],
+  "author": "Carlin-Parraga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlinparraga/proyecto-curso-vue/issues"
+  },
+  "homepage": "https://github.com/carlinparraga/proyecto-curso-vue#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4"
+  }
+}

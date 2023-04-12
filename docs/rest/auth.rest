@@ -1,0 +1,10 @@
+POST http://127.0.0.1:3000/api/auth/registro
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombres":"Carlos Luis",
+  "apellidos":"Parraga Vera",
+  "email":"carlin.parraga@hotmail.com",
+  "password":"Carlin$12345"
+}

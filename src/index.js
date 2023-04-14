@@ -2,14 +2,15 @@
 
 import express from "express";
 import { Route } from "./routes";
+var cors = require("cors");
 
 //iniciamos los modulos
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(cors());
 //variables
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005;
 
 //configurar rutas
 app.use("/api", Route);

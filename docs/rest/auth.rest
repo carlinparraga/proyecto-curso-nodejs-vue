@@ -18,3 +18,7 @@ Accept: application/json
   "email":"cparraga1@coopcalcetaltda.fin.ec",
   "password":"Carlin$12345"
 }
+
+###login
+GET  http://127.0.0.1:3005/api/auth/perfil
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwiZW1haWwiOiJjcGFycmFnYUBjb29wY2FsY2V0YWx0ZGEuZmluLmVjIiwidGltZSI6IjIwMjMtMDQtMTRUMTY6Mjc6MjQuNDU0WiIsImlhdCI6MTY4MTQ4OTY0NCwiZXhwIjoxNjgxNDkzMjQ0fQ.bGtHh83rSwwNXs_NtnJqyJAdWE0StcPdMJ0qZzl8XKM

@@ -38,7 +38,7 @@ export default {
     const { email, password } = req.body;
     //busqueda usuario por email y password
     let user = await models.User.findOne({
-      while: {
+      where: {
         email: email,
       },
     });
@@ -73,7 +73,6 @@ export default {
   perfil(req, res) {
     res.status(200).send({
       mensaje: "Mi Perfil",
-      usuario: user,
     });
   },
 };

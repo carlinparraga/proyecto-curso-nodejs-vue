@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 //variables
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3008;
 
 //configurar rutas
 app.use("/api", Route);
